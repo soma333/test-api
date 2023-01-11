@@ -44,7 +44,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com/</uri>
+						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>soma123S</username>
 						<password>soma123S</password>
@@ -53,7 +53,7 @@
 						<workerType>${workerType}</workerType>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
-						<region>${region}</region>
+						
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
